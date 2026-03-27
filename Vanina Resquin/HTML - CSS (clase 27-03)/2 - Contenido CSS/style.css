@@ -1,0 +1,34 @@
+*{
+    background-color: pink;
+}
+h1{
+    background-color: rgb(179, 117, 117);
+    color: white;
+    padding: 20px;
+}
+p{
+    background-color: wheat;
+}
+#nuevo_parrafo{
+    background-color: brown;
+    color: pink;
+}
+#nuevo_titulo{
+    background-color: pink;
+    color: brown;
+}
+.hermano{
+    background-color: white;
+    color: palevioletred;
+}
+div p{
+    background-color: pink;
+    color: brown;
+}
+#cambiar:hover{
+    background-color: black;
+    color: white;
+}
+a:visited{
+    color: blueviolet;
+}

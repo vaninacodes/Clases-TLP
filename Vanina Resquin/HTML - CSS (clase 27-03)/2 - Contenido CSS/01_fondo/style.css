@@ -1,0 +1,14 @@
+body{
+    /*Usar una imagen de fondo*/
+    background-image: url(assets/img/pinkpantera.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: contain;
+
+    /*Truco para centrar elementos*/
+    width: 500px;
+    margin: 2px auto;
+}
+div{
+    color: white;
+}
