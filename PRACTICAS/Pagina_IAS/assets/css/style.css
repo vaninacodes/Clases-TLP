@@ -1,0 +1,170 @@
+/*
+  Archivo: style.css
+  Proyecto: Sitio Web IAS - Instituto de Asistencia Social
+  Descripción: Estilos generales para todas las páginas del sitio
+  Autora: Vanina Resquin
+  Fecha: 05/04/2026
+
+  PALETA DE COLORES:
+  - Verde principal:     green / yellowgreen
+  - Verde claro (fondo): rgba(172, 255, 47, 0.336)  → usado en header
+  - Verde form:          rgba(172, 255, 47, 0.241)  → usado en formulario
+  - Verde items:         rgba(153, 205, 50, 0.43)   → usado en .servicio
+  - Amarillo hover:      yellow / goldenrod          → usado en a:hover
+  - Blanco:              white                       → fondo general y texto nav
+*/
+/*ESTILOS GENERALES*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/*TITULOS*/
+h1, h2{
+    color: green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h3{
+    color: green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*PARRAFOS*/
+p{
+    line-height:normal;
+}
+/*ENLACES*/
+a{
+    color: green;
+    text-decoration: none;
+}
+/*ENCABEZADO*/
+header{
+    background-color:rgba(172, 255, 47, 0.336);
+    padding: 20px;
+    width: auto;
+}
+/*BARRA DE NAV*/
+nav{
+    background-color:green;
+    padding: 10px 20px;
+    width: auto;
+    text-align: center;
+}
+/*ENLACES DENTRO DE NAV*/
+nav a{
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+}
+/*MAIN*/
+main{
+    width: auto;
+    margin: 20px auto;
+    padding: 20px;
+}
+/*BORDES DE LA TABLA*/
+table { 
+    width: auto;
+    border: 2px solid yellowgreen;
+    border-radius: 6px;
+    background-color: white;
+    min-height: 50px;
+    text-align: center;
+}
+table th{
+    background-color: yellowgreen;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid yellowgreen;
+}
+table td{
+    padding: 10px;
+    border: 2px solid yellowgreen;
+}
+/*IMAGEN CEDE*/
+img{
+    width: 900px;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+/*PIE DE PAGINA*/
+footer{
+    background-color: green;
+    padding: 15px;
+    margin-top: 30px;
+    width: auto;
+    color: white;
+    text-align: center;
+}
+/*COLOR DEL ENLACE AL PASAR EL MOUSE*/
+a:hover{
+    color: yellow;
+}
+/*IMAGEN FUNCINOES*/
+div img{
+    width: 900px;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+/*ESTILOS DE LOS INPUT DE EL FORM*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="textarea"]  {
+    padding: 8px;
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+    margin-bottom: 12px;
+}
+/*CLASS:*/
+/*CONTENIDO DESTACADO: sobre ias*/
+.destacado{
+    background-color: rgba(153, 205, 50, 0.659);
+    border-radius: 5px;
+    padding: 12px;
+}
+/*ESTILO DEL BOTON ENVIAR*/
+.btn-enviar{
+    background-color: yellowgreen;
+    color: darkgreen;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    min-height: 40px;
+}
+/*ESILO DE LOS SERVICIOS*/
+.servicio{
+    background-color: rgba(153, 205, 50, 0.43);
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style-type:none;
+}
+/*ID:*/
+/*id del enlace del mapa*/
+#mapa{
+    background-color: rgba(255, 255, 0, 0.39);
+    border-radius: 6px;
+    margin-left: 15px;
+}
+/*cambia de color*/
+#mapa:hover{
+    color: goldenrod;
+}
+/*ESTILO DEL FORMULARIO*/
+#formulario{
+    background-color: rgba(172, 255, 47, 0.241);
+    border: 1px solid greenyellow;
+    border-radius: 6px;
+    padding: 20px;
+    width:max-content;
+}
